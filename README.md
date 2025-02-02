@@ -4,7 +4,7 @@
 If you want to risk using it, use it in a clever way that make your code clean and readable 
 
 ## Idea of the App 
-Build a simple "To-Do List" application with an admin panel.  This app will allow users (you, in this case, acting as the admin) to manage a list of tasks. 
+Build a simple "To-Do List" application with an admin panel.  This app will allow users to manage a list of tasks. 
 The admin panel will provide the interface to create, read, update, and delete (CRUD operations) these tasks.  
 Each task should have a title (required) and a completion status (e.g., "Pending" or "Completed").
 
