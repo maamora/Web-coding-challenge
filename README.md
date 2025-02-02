@@ -18,7 +18,7 @@ Each task should have a title (required) and a completion status (e.g., "Pending
 
 ## Deliverables
 
-1.  **Forked Repository:** The intern should fork this repository , and complete the challenge within their forked copy.
+1.  **Forked Repository:** Fork this repository , and complete the challenge within their forked copy.
 2.  **Completed Code:**  The forked repository should contain the complete and functional project code.
 3.  **README Instructions:** A short README file Include small instructions .
 4.  **Reflection:** A brief (1 paragraph) written reflection on any challenges you faced . This should be included in the README
