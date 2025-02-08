@@ -1,24 +1,67 @@
-# Web Coding Challenge (full stack)
+# Task Manager
 
-## Don't use AI 🚨
-If you want to risk using it, use it in a clever way that make your code clean and readable 
+A robust application for managing tasks efficiently. Built with Nodejs, Mongodb, and Nextjs, it provides a seamless experience for creating, viewing, editing and deleting tasks.
 
-## Idea of the App 
-Build a simple "To-Do List" application with an admin panel.  This app will allow users to manage a list of tasks. 
-The admin panel will provide the interface to create, read, update, and delete (CRUD operations) these tasks.  
-Each task should have a title (required) and a completion status (e.g., "Pending" or "Completed").
+## Table of Contents
 
-## Technologies to Use
+- [Project Overview](#project-overview)
+- [Core Features](#core-features)
+- [Getting Started](#getting-started)
 
-*   **MERN Stack:**
-    *   **MongoDB:** The database to store product data.  Consider using MongoDB Atlas for easy setup.
-    *   **Express.js:** The back-end framework for creating the API endpoints.
-    *   **React.js:** The front-end JavaScript library for building the user interface.
-    *   **Node.js:** The JavaScript runtime environment.
+## Project Overview
 
-## Deliverables
+Managing tasks effectively is essential for personal and professional productivity. This application simplifies task management by offering CRUD operations through a user-friendly interface.
 
-1.  **Forked Repository:** Fork this repository , and complete the challenge within their forked copy.
-2.  **Completed Code:**  The forked repository should contain the complete and functional project code.
-3.  **README Instructions:** A short README file Include small instructions .
-4.  **Reflection:** A brief (1 paragraph) written reflection on any challenges you faced . This should be included in the README
+## Core Features
+
+The Task Manager offers the following functionalities:
+
+- Task Management: Create, view, edit, and delete tasks.
+
+
+## Getting Started
+
+Follow these steps to set up the project locally:
+
+### Prerequisites
+
+Node.js: For running the React Native application.
+
+### Installation
+
+1. Set Up the Backend:
+
+- Create a .env file have:
+```bash
+CONTAINERS_DB_URI=
+CONTAINERS_NS=
+PORT=
+SECRET_KEY=
+CORS_PORT=
+ ```
+- Install dependencies:
+```bash
+    npm install
+ ```
+
+- Run the development server:
+```bash
+    npm run dev
+ ```
+
+3. Set Up the Frontend:
+
+- Create a .env file have:
+```bash
+NEXT_PUBLIC_API_BASE_URL=
+ ```
+
+- Install dependencies:
+```bash
+npm install
+```
+- Run the application:
+```bash
+npm run dev
+```
+
